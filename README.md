@@ -61,3 +61,17 @@ class GasCar extends Car {
     }
 }
 ```
+### Polymorphism
+```java
+public class Main {
+    public static void main(String[] args) throws Exception {
+        // Polymorphism 
+        // (car1 dan car2 objek dari class Car, tapi bisa memiliki perilaku yang berbeda)
+        Car car1 = new ElectricCar("Tesla", "White");
+        Car car2 = new GasCar("Toyota", "Black");
+
+        car1.startEngine();
+        car2.startEngine();
+    }
+}
+```
