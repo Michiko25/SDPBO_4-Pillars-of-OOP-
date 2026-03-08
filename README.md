@@ -2,7 +2,8 @@
 
 Object-Oriented Programming (OOP), dirancang untuk meningkatkan modularitas, kemudahan pemeliharaan, dan skalabilitas dalam pengembangan perangkat lunak dengan menyembunyikan kompleksitas, membungkus data, dan memungkinkan penggunaan kembali kode
 ### Abstraction and Encapsulation
-''' // Abstraction
+''' java
+// Abstraction
 abstract class Car {
     protected String brand;
     protected String color;
