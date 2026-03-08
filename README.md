@@ -1,7 +1,7 @@
-## Getting Started
+## 4 Pillars of OOP
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
+Object-Oriented Programming (OOP) terdiri dari Encapsulation (Enkapsulasi), Inheritance (Pewarisan), Polymorphism (Polimorfisme), dan Abstraction (Abstraksi).
+Dirancang untuk meningkatkan modularitas, kemudahan pemeliharaan, dan skalabilitas dalam pengembangan perangkat lunak dengan menyembunyikan kompleksitas, membungkus data, dan memungkinkan penggunaan kembali kode
 ## Folder Structure
 
 The workspace contains two folders by default, where:
