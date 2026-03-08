@@ -35,7 +35,7 @@ abstract class Car {
 ### Inheritance
 Electric car
 ```java
-/ Inheritance (subclass of Car)
+// Inheritance (subclass of Car)
 class ElectricCar extends Car {
     public ElectricCar(String brand, String color) {
         super(brand, color);
