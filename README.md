@@ -2,7 +2,7 @@
 
 Object-Oriented Programming (OOP), dirancang untuk meningkatkan modularitas, kemudahan pemeliharaan, dan skalabilitas dalam pengembangan perangkat lunak dengan menyembunyikan kompleksitas, membungkus data, dan memungkinkan penggunaan kembali kode
 ### Abstraction and Encapsulation
-''' java
+```java
 // Abstraction
 abstract class Car {
     protected String brand;
@@ -32,7 +32,7 @@ abstract class Car {
         System.out.println("Brand:" + brand + "Color:" + color);
     }
 }
-'''
+```
 The workspace contains two folders by default, where:
 
 - `src`: the folder to maintain sources
