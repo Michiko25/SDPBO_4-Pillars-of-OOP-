@@ -1,9 +1,37 @@
 ## 4 Pillars of OOP
 
-Object-Oriented Programming (OOP) terdiri dari Encapsulation (Enkapsulasi), Inheritance (Pewarisan), Polymorphism (Polimorfisme), dan Abstraction (Abstraksi).
-Dirancang untuk meningkatkan modularitas, kemudahan pemeliharaan, dan skalabilitas dalam pengembangan perangkat lunak dengan menyembunyikan kompleksitas, membungkus data, dan memungkinkan penggunaan kembali kode
-## Folder Structure
+Object-Oriented Programming (OOP), dirancang untuk meningkatkan modularitas, kemudahan pemeliharaan, dan skalabilitas dalam pengembangan perangkat lunak dengan menyembunyikan kompleksitas, membungkus data, dan memungkinkan penggunaan kembali kode
+### Abstraction and Encapsulation
+''' // Abstraction
+abstract class Car {
+    protected String brand;
+    protected String color;
 
+    public Car (String brand, String color) {
+        this.brand = brand;
+        this.color = color;
+    }
+
+     // Encapsulation
+    private int speed;
+
+    public void setSpeed (int speed) {
+        if (speed >= 0){
+            this.speed = speed;
+        }
+    }
+
+    public int getSpeed() {
+        return speed;
+    }
+
+    abstract void startEngine();
+
+    public void displayinfo(){
+        System.out.println("Brand:" + brand + "Color:" + color);
+    }
+}
+'''
 The workspace contains two folders by default, where:
 
 - `src`: the folder to maintain sources
